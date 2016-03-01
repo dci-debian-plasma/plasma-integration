@@ -14,6 +14,7 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5iconthemes-dev (>= 5.2.0),
                libkf5notifications-dev (>= 5.2.0),
                libkf5widgetsaddons-dev (>= 5.2.0),
+               libqt5x11extras5-dev,
                pkg-kde-tools (>= 0.15.18~),
                qtbase5-dev (>= 5.4),
                qtbase5-private-dev
