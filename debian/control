@@ -26,7 +26,11 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/plasma-integration.git
 
 Package: plasma-integration
 Architecture: any
-Depends: fonts-noto-hinted, fonts-oxygen, ${misc:Depends}, ${shlibs:Depends}
+Depends: breeze,
+         fonts-noto-hinted,
+         fonts-oxygen,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Qt Platform Theme integration plugins for KDE Plasma
  A plugin to provide Qt Platform Theme integration for the Plasma
  workspace.
