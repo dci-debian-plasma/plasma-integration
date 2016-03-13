@@ -1,5 +1,9 @@
 plasma-integration (5.5.90-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * Initial release.
+
+  [ Bhushan Shah ]
+  * Fix plasma-integration.install for other platforms
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 01 Mar 2016 10:11:10 +0000
