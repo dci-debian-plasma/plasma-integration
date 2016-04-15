@@ -2,7 +2,8 @@ Source: plasma-integration
 Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cmake (>= 2.8.12),
+Build-Depends: breeze-dev,
+               cmake (>= 2.8.12),
                dbus-x11,
                debhelper (>= 9),
                extra-cmake-modules (>= 1.3.0~),
