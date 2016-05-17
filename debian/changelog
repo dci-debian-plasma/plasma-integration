@@ -1,5 +1,9 @@
-plasma-integration (5.5.90-0ubuntu1) UNRELEASED; urgency=medium
+plasma-integration (5.6.4-1~) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * Initial release.
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 01 Mar 2016 10:11:10 +0000
+  [ Maximiliano Curia ]
+  * New upstream release (5.6.4).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 17 May 2016 15:57:19 +0200
