@@ -27,15 +27,3 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt Platform Theme integration plugins for KDE Plasma
  A plugin to provide Qt Platform Theme integration for the Plasma
  workspace.
-
-Package: plasma-integration-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: plasma-integration (= ${binary:Version}), ${misc:Depends}
-Recommends: qtbase5-dbg
-Description: Qt Platform Theme integration plugins for KDE Plasma
- A plugin to provide Qt Platform Theme integration for the Plasma
- workspace.
- .
- This package contains the debugging symbols.
