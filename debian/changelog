@@ -1,3 +1,11 @@
+plasma-integration (5.6.5-1~1.gbp400c79) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @400c79d037419b762b592d2f288dc4239a0043de **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 14 Jun 2016 19:13:08 +0200
+
 plasma-integration (5.6.4-2) unstable; urgency=medium
 
   * Release to unstable
