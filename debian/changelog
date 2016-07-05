@@ -1,3 +1,11 @@
+plasma-integration (5.7.0-1~1.gbp2de6c3) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @2de6c326f73c6bd523e29b86855e8b3e1c217c4a **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 05 Jul 2016 19:13:09 +0200
+
 plasma-integration (5.6.5-1) unstable; urgency=medium
 
   * New upstream release.
