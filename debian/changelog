@@ -1,10 +1,11 @@
-plasma-integration (5.7.1-1~1.gbp6fe526) UNRELEASED; urgency=medium
+plasma-integration (5.7.2-1~1.gbpaef075) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6fe526c7710cde72ee7a53b6b122cdfa33f3f6b2 **
+  ** SNAPSHOT build @aef075e02b9e352845da6d5c3d0677f9c5fc68a6 **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 19:13:16 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 19 Jul 2016 19:13:12 +0200
 
 plasma-integration (5.7.0-1) unstable; urgency=medium
 
