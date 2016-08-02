@@ -28,8 +28,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/plasma-integration.git
 Package: plasma-integration
 Architecture: any
 Depends: breeze,
+         fonts-hack-ttf,
          fonts-noto-hinted,
-         fonts-oxygen,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Qt Platform Theme integration plugins for KDE Plasma

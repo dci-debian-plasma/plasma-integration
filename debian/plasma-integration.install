@@ -1,2 +1,3 @@
 usr/lib/*/qt5/plugins/platformthemes/KDEPlasmaPlatformTheme.so
+usr/share/kconf_update/
 usr/share/locale/
