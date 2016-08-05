@@ -1,11 +1,12 @@
-plasma-integration (5.7.2-1~1.gbpaef075) UNRELEASED; urgency=medium
+plasma-integration (5.7.2-1~2.gbpc25fc2) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @aef075e02b9e352845da6d5c3d0677f9c5fc68a6 **
+  ** SNAPSHOT build @c25fc211fb941ee284844662db2276df2a448f54 **
 
   * UNRELEASED
   * UNRELEASED
+  * Update build-deps and deps with the info from cmake
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 19 Jul 2016 19:13:12 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 05 Aug 2016 10:34:39 +0200
 
 plasma-integration (5.7.0-1) unstable; urgency=medium
 
