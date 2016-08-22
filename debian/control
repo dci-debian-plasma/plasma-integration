@@ -28,6 +28,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/plasma-integration.git
 Package: plasma-integration
 Architecture: any
 Depends: breeze, ${misc:Depends}, ${shlibs:Depends}
+Conflicts: appstream-qt5 (<= 0.3.0+16.04.20151130-0ubuntu1)
 Recommends: fonts-hack-ttf, fonts-noto-hinted
 Description: Qt Platform Theme integration plugins for KDE Plasma
  A plugin to provide Qt Platform Theme integration for the Plasma
