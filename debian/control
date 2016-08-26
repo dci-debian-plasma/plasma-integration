@@ -33,3 +33,4 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Qt Platform Theme integration plugins for KDE Plasma
  A plugin to provide Qt Platform Theme integration for the Plasma
  workspace.
+Breaks: plasma-desktop (<< 4:5.7)
