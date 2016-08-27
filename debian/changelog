@@ -1,21 +1,13 @@
-plasma-integration (5.7.4-1~2.gbp934c99) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @934c998f53344baf2a059350f79bdc8d82351b15 **
+plasma-integration (5.7.4-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @c25fc211fb941ee284844662db2276df2a448f54 **
-
-  * UNRELEASED
-  * UNRELEASED
-  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.7.4)
   * Bump group breaks (5.7)
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 26 Aug 2016 11:13:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 27 Aug 2016 17:26:33 +0200
 
 plasma-integration (5.7.0-1) unstable; urgency=medium
 
