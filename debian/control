@@ -5,7 +5,6 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: breeze-dev (>= 4:5.8.0~),
                cmake (>= 2.8.12),
-               dbus-x11,
                debhelper (>= 9),
                extra-cmake-modules (>= 5.17.0~),
                kio-dev (>= 5.17.0~),
@@ -29,7 +28,9 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/plasma-integration.git
 
 Package: plasma-integration
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: breeze, ${misc:Depends}, ${shlibs:Depends}
+Conflicts: appstream-qt5 (<= 0.3.0+16.04.20151130-0ubuntu1)
+Recommends: fonts-hack-ttf, fonts-noto-hinted
 Description: Qt Platform Theme integration plugins for KDE Plasma
  A plugin to provide Qt Platform Theme integration for the Plasma
  workspace.

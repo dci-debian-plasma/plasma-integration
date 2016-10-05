@@ -7,6 +7,18 @@ plasma-integration (5.8.0-1~1.gbp008ecd) UNRELEASED; urgency=medium
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:41:54 +0200
 
+plasma-integration (5.8.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 30 Sep 2016 11:29:15 +0000
+
+plasma-integration (5.7.5-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 13 Sep 2016 13:47:25 +0000
+
 plasma-integration (5.7.4-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
@@ -18,6 +30,30 @@ plasma-integration (5.7.4-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 27 Aug 2016 17:26:33 +0200
 
+plasma-integration (5.7.4-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 23 Aug 2016 17:28:59 +0000
+
+plasma-integration (5.7.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 02 Aug 2016 12:04:34 +0000
+
+plasma-integration (5.7.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 19 Jul 2016 13:47:55 +0000
+
+plasma-integration (5.7.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 12 Jul 2016 16:06:54 +0000
+
 plasma-integration (5.7.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
@@ -28,11 +64,23 @@ plasma-integration (5.7.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Jul 2016 10:25:06 +0200
 
+plasma-integration (5.7.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 04 Jul 2016 13:14:46 +0000
+
 plasma-integration (5.6.5-1) unstable; urgency=medium
 
   * New upstream release.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 16:23:55 +0200
+
+plasma-integration (5.6.5-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 14 Jun 2016 14:14:27 +0000
 
 plasma-integration (5.6.4-2) unstable; urgency=medium
 
@@ -49,3 +97,21 @@ plasma-integration (5.6.4-1) experimental; urgency=medium
   * New upstream release (5.6.4).
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 25 May 2016 12:09:16 +0200
+plasma-integration (5.6.4-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 May 2016 09:42:23 +0000
+
+plasma-integration (5.6.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 19 Apr 2016 16:55:40 +0000
+
+plasma-integration (5.6.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 08 Apr 2016 11:44:46 +0000
+
