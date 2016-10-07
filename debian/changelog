@@ -1,51 +1,13 @@
-plasma-integration (5.8.0-1~2.gbpa3d388) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @a3d3883ce1ce4b20f007651112f2b15d48486764 **
+plasma-integration (5.8.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @008ecd146c43ae7196c5f07c3c90ad798569d550 **
-
-  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
-  [ Jonathan Riddell ]
-  * build-dep on kio-dev
-  * build on libqt5x11extras5-dev
-  * add depends on fonts-noto-hinted, fonts-oxygen
-  * build-dep on libxcursor-dev
-  * make breeze a hard dep of plasma-integration says Plasma team
-  * update watch file to version=4 with pgp signature checking
-  * only stable tars used in neon
-  * switch dep to fonts-hack-ttf and add kconf_update files
-  * move fonts to a recommends https://github.com/blue-systems/plasma-5.7/issues/11
-  * fix typo
-  * fix typo
-  * update signing key to add david edmundson
-  * NOCI
+  [ Maximiliano Curia ]
+  * New upstream release (5.8.0)
+  * Bump group breaks (5.8)
 
-  [ Neon CI ]
-  * New release
-  * New release
-  * New release
-  * New release
-  * New release
-  * New release
-  * New release
-  * New release
-  * New release
-  * New release
-  * New release
-
-  [ Harald Sitter ]
-  * install locale
-  * new bdep on breeze-dev to set theme id without hardcode
-  * override font runtime deps as we have them in the control already
-  * conflict appstream-qt5 in 16.04 to prevent it from breaking integration
-
-  [ Rohan Garg ]
-  * Fix install path
-
- -- Jonathan Riddell <jr@jriddell.org>  Wed, 05 Oct 2016 20:13:29 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Oct 2016 14:09:33 +0200
 
 plasma-integration (5.8.0-0neon) xenial; urgency=medium
 
