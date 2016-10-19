@@ -1,10 +1,12 @@
-plasma-integration (5.8.2-1~1.gbp249e21) UNRELEASED; urgency=medium
+plasma-integration (5.8.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @249e219f9a0e1be095ffdbae6764ced50d08989b **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 18 Oct 2016 19:13:28 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.8.2)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 15:26:54 +0200
 
 plasma-integration (5.8.1-1) unstable; urgency=medium
 
