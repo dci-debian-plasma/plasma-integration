@@ -1,10 +1,11 @@
-plasma-integration (5.8.3-1~1.gbpf4294e) UNRELEASED; urgency=medium
+plasma-integration (5.8.4-1~1.gbp35a0cd) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f4294e44046e701ed866a4093605d1db3c2e8a45 **
+  ** SNAPSHOT build @35a0cddfd16c89b42dbc1b0ff6068784b1dd9cd5 **
 
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 01 Nov 2016 17:13:13 +0100
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 22 Nov 2016 19:13:11 +0100
 
 plasma-integration (5.8.2-1) unstable; urgency=medium
 
