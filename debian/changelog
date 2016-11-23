@@ -1,11 +1,12 @@
-plasma-integration (5.8.4-1~1.gbp35a0cd) UNRELEASED; urgency=medium
+plasma-integration (5.8.4-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @35a0cddfd16c89b42dbc1b0ff6068784b1dd9cd5 **
-
-  * Update build-deps and deps with the info from cmake
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 22 Nov 2016 19:13:11 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.8.4)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 18:37:50 +0100
 
 plasma-integration (5.8.2-1) unstable; urgency=medium
 
