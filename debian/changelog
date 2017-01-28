@@ -1,3 +1,10 @@
+plasma-integration (5.8.5-2) experimental; urgency=medium
+
+  * Team upload
+  * Bump minimum breeze-dev requirement to 4:5.8.5 to match new requirement
+
+ -- Scott Kitterman <scott@kitterman.com>  Sat, 28 Jan 2017 12:10:33 -0500
+
 plasma-integration (5.8.5-1) experimental; urgency=medium
 
   * New upstream release (5.8.5).
