@@ -1,3 +1,9 @@
+plasma-integration (5.8.6-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.8.6)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 26 Mar 2017 14:08:55 +0200
+
 plasma-integration (5.8.5-2) experimental; urgency=medium
 
   * Team upload
