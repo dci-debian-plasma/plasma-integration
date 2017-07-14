@@ -10,21 +10,21 @@ major.minor, so dropping this unnecessary requirement.
  1 file changed, 3 insertions(+), 1 deletion(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 800a523..369c797 100644
+index 68754f0..fddfd55 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 2.8.12)
  project(PlasmaIntegration)
- set(PROJECT_VERSION "5.8.6")
+ set(PROJECT_VERSION "5.10.3")
  set(PROJECT_VERSION_MAJOR 5)
 +string(REGEX MATCHALL "[0-9]+" PROJECT_VERSION_COMPONENTS ${PROJECT_VERSION})
 +list(GET PROJECT_VERSION_COMPONENTS 1 PROJECT_VERSION_MINOR)
  
  include(FeatureSummary)
  find_package(ECM 5.17.0  NO_MODULE)
-@@ -38,7 +40,7 @@ find_package(KF5WidgetsAddons ${KF5_DEP_VERSION} REQUIRED)
- find_package(KF5WindowSystem ${KF5_DEP_VERSION} REQUIRED)
- find_package(KF5Wayland 5.5 CONFIG REQUIRED)
+@@ -44,7 +46,7 @@ set_package_properties(XCB PROPERTIES
+     PURPOSE "Required to pass style properties to native Windows on X11 Platform"
+ )
  
 -find_package(Breeze ${PROJECT_VERSION} CONFIG)
 +find_package(Breeze ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR} CONFIG)
