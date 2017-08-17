@@ -1,8 +1,16 @@
-plasma-integration (5.10.3-1~) UNRELEASED; urgency=medium
+plasma-integration (5.10.4-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.10.3).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.0.0.
+  * Update upstream metadata
+  * Bump group breaks (5.10)
+  * Sync debian/watch with neon
+  * Refresh patch
+  * Add pkg-config missing build dep
+  * New upstream release (5.10.4).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 11:56:48 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Aug 2017 11:23:49 +0200
 
 plasma-integration (5.8.6-1) unstable; urgency=medium
 
