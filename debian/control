@@ -20,6 +20,7 @@ Build-Depends: breeze-dev,
                pkg-kde-tools (>= 0.15.18~),
                qtbase5-dev (>= 5.4),
                qtbase5-private-dev,
+               qtdeclarative5-dev,
                qtquickcontrols2-5-dev
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/plasma-integration
