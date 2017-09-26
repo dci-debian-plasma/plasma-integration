@@ -18,9 +18,9 @@ Build-Depends: breeze-dev,
                libqt5x11extras5-dev,
                libxcursor-dev,
                pkg-kde-tools (>= 0.15.18~),
-               qml-module-org-kde-qqc2desktopstyle,
                qtbase5-dev (>= 5.4),
-               qtbase5-private-dev
+               qtbase5-private-dev,
+               qtquickcontrols2-5-dev
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/kde/workspace/plasma-integration
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/plasma/plasma-integration.git
