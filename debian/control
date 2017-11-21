@@ -42,7 +42,7 @@ Description: Qt Platform Theme integration plugins for KDE Plasma
 
 Package: plasma-integration-dbg
 Section: debug
-Priority: extra
+Priority: optional
 Architecture: any
 Depends: plasma-integration (= ${binary:Version}), ${misc:Depends}
 Recommends: qtbase5-dbg
@@ -51,3 +51,4 @@ Description: Qt Platform Theme integration plugins for KDE Plasma
  workspace.
  .
  This package contains the debugging symbols.
+
