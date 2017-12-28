@@ -13,14 +13,14 @@ major.minor, so dropping this unnecessary requirement.
 +++ b/CMakeLists.txt
 @@ -3,6 +3,8 @@
  project(PlasmaIntegration)
- set(PROJECT_VERSION "5.10.5")
+ set(PROJECT_VERSION "5.11.4")
  set(PROJECT_VERSION_MAJOR 5)
 +string(REGEX MATCHALL "[0-9]+" PROJECT_VERSION_COMPONENTS ${PROJECT_VERSION})
 +list(GET PROJECT_VERSION_COMPONENTS 1 PROJECT_VERSION_MINOR)
  
  include(FeatureSummary)
  find_package(ECM 5.17.0  NO_MODULE)
-@@ -44,7 +46,7 @@
+@@ -39,7 +41,7 @@
      PURPOSE "Required to pass style properties to native Windows on X11 Platform"
  )
  
