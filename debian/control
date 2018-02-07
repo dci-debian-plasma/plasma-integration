@@ -40,4 +40,4 @@ Recommends: fonts-hack-ttf, fonts-noto-hinted
 Description: Qt Platform Theme integration plugins for KDE Plasma
  A plugin to provide Qt Platform Theme integration for the Plasma
  workspace.
-Breaks: plasma-desktop (<< 4:5.11), plasma-workspace (<< 4:5.11)
+Breaks: plasma-desktop (<< 4:5.12), plasma-workspace (<< 4:5.12)
