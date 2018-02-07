@@ -9,18 +9,20 @@ major.minor, so dropping this unnecessary requirement.
  CMakeLists.txt | 4 +++-
  1 file changed, 3 insertions(+), 1 deletion(-)
 
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 1596dfd..08366eb 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -3,6 +3,8 @@
+@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 2.8.12)
  project(PlasmaIntegration)
- set(PROJECT_VERSION "5.11.4")
+ set(PROJECT_VERSION "5.12.0")
  set(PROJECT_VERSION_MAJOR 5)
 +string(REGEX MATCHALL "[0-9]+" PROJECT_VERSION_COMPONENTS ${PROJECT_VERSION})
 +list(GET PROJECT_VERSION_COMPONENTS 1 PROJECT_VERSION_MINOR)
  
  include(FeatureSummary)
  find_package(ECM 5.17.0  NO_MODULE)
-@@ -39,7 +41,7 @@
+@@ -39,7 +41,7 @@ set_package_properties(XCB PROPERTIES
      PURPOSE "Required to pass style properties to native Windows on X11 Platform"
  )
  
